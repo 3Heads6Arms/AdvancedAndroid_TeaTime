@@ -116,6 +116,8 @@ public class MenuActivity extends AppCompatActivity implements ImageDownloader.D
                 startActivity(mTeaIntent);
             }
         });
+
+        getIdlingResource();
     }
 
     @Override
